@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom_gradient {
+        @apply bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-600 w-fit bg-clip-text text-transparent;
+    }
+}
