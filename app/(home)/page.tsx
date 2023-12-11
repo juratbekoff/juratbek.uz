@@ -5,7 +5,7 @@ export default function Home() {
   const age = new Date().getFullYear() - new Date(2005, 8, 20).getFullYear();
 
   return (
-    <div className="lg:flex lg:justify-between w-full h-[70vh] max-md:flex-col max-md:mt-[30%] container">
+    <div className="lg:flex lg:justify-between w-full h-[70vh] max-md:flex-col container">
       <Image
         src={"/images/khaby.webp"}
         alt="not loaded"
