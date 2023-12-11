@@ -1,15 +1,17 @@
 import type { Metadata } from "next";
 import { Heebo } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components";
 import BottomBar from "@/components/Bottombar";
 import { Provider } from "./provider";
 
 const heebo = Heebo({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Juratbek.uz",
-  description: "Created by Juratbek Xudayberganov",
+  title: "Jur'atbek Xudayberganov",
+  description: "Created by Jur'atbek Xudayberganov",
+  icons: {
+    icon: "/head-icon.jpg",
+  },
 };
 
 export default function RootLayout({
