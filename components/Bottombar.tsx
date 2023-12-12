@@ -23,7 +23,7 @@ const BottomBar = () => {
 
   return (
     <div
-      className={`fixed bottom-0 w-4/5 lg:mb-10 bg-white ${
+      className={`fixed bottom-[-5px] w-4/5 lg:pb-10 bg-white ${
         isScrolled &&
         "max-md:border-t max-md:border-t-neutral-800 max-md:border-opacity-10"
       }`}
