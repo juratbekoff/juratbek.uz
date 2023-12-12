@@ -61,20 +61,4 @@ export const DoneWorks: WorkProps[] = [
       "Mongoose",
     ],
   },
-  {
-    id: 5,
-    image: "/project_images/x-clone.webp",
-    name: "Loadmore.uz",
-    project_link: "https://y-twitter.vercel.app/",
-    stacks: [
-      "Next.js",
-      "Typescript",
-      "TailwindCSS",
-      "NextAuth",
-      "ShadCn UI",
-      "Node.js",
-      "MongoDB",
-      "Mongoose",
-    ],
-  },
 ];
