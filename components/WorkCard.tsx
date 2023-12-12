@@ -12,7 +12,7 @@ export interface WorkProps {
 
 const WorkCard = ({ ...data }: WorkProps) => {
   return (
-    <div className="flex gap-5 mb-10 border border-neutral-700 border-opacity-20 p-3 shadow-md  rounded-md max-md:flex-col">
+    <div className="flex gap-5  border border-neutral-700 border-opacity-20 p-3 shadow-md  rounded-md max-md:flex-col">
       <Image
         src={data.image}
         alt="not loaded"
