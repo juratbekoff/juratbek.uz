@@ -25,8 +25,8 @@ export const skillsItem = [
   {
     key: 1,
     name: "Stack",
-    label: `TypeScript, React, ReactNative, Context API, Redux,
-    ES6+, NodeJS, JWT, REST APIs, Sanity CMS`,
+    label: `Javascript, TypeScript, React, ReactNative, Context API, Redux,
+    ES6+, NodeJS, Expressjs, Nestjs, JWT, REST APIs, Sanity CMS`,
   },
   {
     key: 2,
