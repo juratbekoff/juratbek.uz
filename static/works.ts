@@ -1,64 +1,82 @@
-import { WorkProps } from "@/components/WorkCard";
+import {WorkProps} from "@/components/WorkCard";
 
 export const DoneWorks: WorkProps[] = [
-  {
-    id: 1,
-    image: "/project_images/10k-promoter.png",
-    name: "10k.uz | Promoter",
-    project_link: "https://promoter.10k.uz",
-    stacks: [
-      "React.js",
-      "TailwindCSS",
-      "Typescript",
-      "Node.js",
-      "Nest.js",
-      "PostgreSQL",
-    ],
-  },
-  {
-    id: 2,
-    image: "/project_images/10k-admin.png",
-    name: "10k.uz | Admin",
-    project_link: "https://admin.10k.uz",
-    stacks: [
-      "React.js",
-      "Ant Design",
-      "ShadCn Ui",
-      "TailwindCSS",
-      "Typescript",
-      "Node.js",
-      "Nest.js",
-      "PostgreSQL",
-    ],
-  },
-  {
-    id: 3,
-    image: "/project_images/urganchttb.jpg",
-    name: "UrganchTTB.uz",
-    project_link: "https://urganchttb.uz",
-    stacks: [
-      "React.js",
-      "Javascript",
-      "TailwindCSS",
-      "Node.js",
-      "Express.js",
-      "PostgreSQL",
-    ],
-  },
-  {
-    id: 4,
-    image: "/project_images/x-clone.webp",
-    name: "X-Clone (Y)",
-    project_link: "https://y-twitter.vercel.app/",
-    stacks: [
-      "Next.js",
-      "Typescript",
-      "TailwindCSS",
-      "NextAuth",
-      "ShadCn UI",
-      "Node.js",
-      "MongoDB",
-      "Mongoose",
-    ],
-  },
+    {
+        id: 1,
+        name: "X-Clone (Y)",
+        project_link: "https://y-twitter.vercel.app/",
+        category: "WEB"
+    },
+    {
+        id: 2,
+        name: "UrganchTTB.uz",
+        project_link: "https://www.urganch-ttb.uz/",
+        category: "WEB"
+    },
+    {
+        id: 3,
+        name: "10k.uz",
+        project_link: "https://promoter.10k.uz",
+        category: "WEB"
+    },
+    {
+        id: 4,
+        name: "KBE.uz",
+        project_link: "https://kbe.uz",
+        category: "WEB"
+    },
+    {
+        id: 5,
+        name: "NinjasGroup.io",
+        project_link: "https://ninjasgroup.io/",
+        category: "WEB"
+    },
+    {
+        id: 6,
+        name: "iMock.uz",
+        project_link: "https://partner.imock.uz",
+        category: "WEB"
+    },
+    {
+        id: 7,
+        name: "XorazmOvoz",
+        project_link: "https://xorazm-ovoz.vercel.app/",
+        category: "WEB"
+    },
+    {
+        id: 8,
+        name: "InfoVisa.uz",
+        project_link: "https://infovisa.uz/",
+        category: "WEB"
+    },
+    {
+        id: 9,
+        name: "Asl Futbol Taxmin",
+        project_link: "https://t.me/aslfutboltaxmin_bot",
+        category: "TELEGRAM_BOT"
+    },
+    {
+        id: 10,
+        name: "Victorina Bot",
+        project_link: "https://t.me/ha_yoki_yoq_bot",
+        category: "TELEGRAM_BOT"
+    },
+    {
+        id: 11,
+        name: "Gold Means Bot",
+        project_link: "https://t.me/goldmeans_bot",
+        category: "TELEGRAM_BOT"
+    },
+    {
+        id: 12,
+        name: "Uzum Shablon Bot",
+        project_link: "https://t.me/uzum_shablon_bot",
+        category: "TELEGRAM_BOT"
+    },
+    {
+        id: 13,
+        name: "UC Referral Bot",
+        project_link: "https://t.me/uc_ref_bot",
+        category: "TELEGRAM_BOT"
+    },
 ];
